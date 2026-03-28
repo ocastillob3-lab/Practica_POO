@@ -17,3 +17,13 @@ public String getNombre() { // getter
    return nombre;
 }
 }
+
+//4. INITIALIZER BLOCK
+class EjemploInitializer {
+int x;
+
+{
+ x = 10;
+ System.out.println("Bloque inicial ejecutado");
+}
+}
