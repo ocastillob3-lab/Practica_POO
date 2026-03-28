@@ -35,3 +35,15 @@ public void saludar() {
  System.out.println("Hola soy " + nombre);
 }
 }
+
+//CLASE PRINCIPAL
+public class Main {
+
+//5. PASS BY VALUE
+public static void cambiar(int x) {
+ x = 50;
+}
+
+public static void main(String[] args) {
+
+
