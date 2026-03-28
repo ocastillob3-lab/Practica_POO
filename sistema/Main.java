@@ -27,3 +27,11 @@ int x;
  System.out.println("Bloque inicial ejecutado");
 }
 }
+//9. BASICS OF OOP
+class Persona {
+String nombre;
+
+public void saludar() {
+ System.out.println("Hola soy " + nombre);
+}
+}
