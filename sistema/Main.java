@@ -54,5 +54,11 @@ public static void main(String[] args) {
 	   // 2. PACKAGES
 	   System.out.println("Uso del package sistema");
 
+	   // 3. ENUMS
+	   Dia hoy = Dia.LUNES;
+	   System.out.println("Hoy es: " + hoy);
 
+	   // 4. INITIALIZER BLOCK
+	   EjemploInitializer e = new EjemploInitializer();
+	   System.out.println("Valor x: " + e.x);
 
