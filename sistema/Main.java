@@ -46,4 +46,13 @@ public static void cambiar(int x) {
 
 public static void main(String[] args) {
 
+	// 1. TYPE CASTING
+	   double numDouble = 9.78;
+	   int numInt = (int) numDouble;
+	   System.out.println("Casting: " + numInt);
+
+	   // 2. PACKAGES
+	   System.out.println("Uso del package sistema");
+
+
 
