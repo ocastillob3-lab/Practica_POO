@@ -61,4 +61,10 @@ public static void main(String[] args) {
 	   // 4. INITIALIZER BLOCK
 	   EjemploInitializer e = new EjemploInitializer();
 	   System.out.println("Valor x: " + e.x);
+	   
+	// 5. PASS BY VALUE
+	   int a = 10;
+	   cambiar(a);
+	   System.out.println("Pass by Value: " + a);
+
 
