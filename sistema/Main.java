@@ -81,4 +81,10 @@ public static void main(String[] args) {
 	   PersonaEncapsulada p = new PersonaEncapsulada();
 	   p.setNombre("Oscar");
 	   System.out.println("Nombre: " + p.getNombre());
-
+	   
+	   // 9. BASICS OF OOP
+	   Persona per = new Persona();
+	   per.nombre = "Osacar";
+	   per.saludar();
+	}
+	}
