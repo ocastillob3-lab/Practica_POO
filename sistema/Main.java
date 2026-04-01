@@ -74,3 +74,11 @@ public static void main(String[] args) {
 	       System.out.println("Error: División por cero");
 	   }
 
+	// 7. ACCESS SPECIFIERS
+	   System.out.println("Uso de private y public en encapsulación");
+	   
+	   // 8. ENCAPSULATION
+	   PersonaEncapsulada p = new PersonaEncapsulada();
+	   p.setNombre("Oscar");
+	   System.out.println("Nombre: " + p.getNombre());
+
