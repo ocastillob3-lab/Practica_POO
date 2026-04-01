@@ -67,4 +67,10 @@ public static void main(String[] args) {
 	   cambiar(a);
 	   System.out.println("Pass by Value: " + a);
 
+	   // 6. EXCEPTION HANDLING
+	   try {
+	       int r = 10 / 0;
+	   } catch (Exception ex) {
+	       System.out.println("Error: División por cero");
+	   }
 
