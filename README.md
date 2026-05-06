@@ -13,6 +13,7 @@ Proyecto en Java donde se aplican conceptos básicos de programación orientada 
 - Access Specifiers
 - Encapsulation
 - Basics of OOP
+- Method Overloading and Overriding
 ---
 ## Autor
 Oscar David Castillo Boteo
